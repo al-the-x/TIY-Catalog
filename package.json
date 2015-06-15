@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JessyRiordan/TIY-Catalog/issues"
   },
-  "homepage": "https://github.com/JessyRiordan/TIY-Catalog"
+  "homepage": "https://github.com/JessyRiordan/TIY-Catalog",
+  "devDependencies": {
+    "wiredep": "^2.2.2"
+  }
 }
