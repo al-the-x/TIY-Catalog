@@ -1,0 +1,39 @@
+
+{
+  "count": 1,
+  "results": [{
+    "shop_id": 7509981,
+    "shop_name": "ClashCases",
+    "user_id": 26832244,
+    "creation_tsz": 1354234302,
+    "title": "Handmade Phone Cases",
+    "announcement": "All of our cases are printed in Southern California with Extra Love &lt;3.",
+    "currency_code": "USD",
+    "is_vacation": false,
+    "vacation_message": null,
+    "sale_message": "Thank you for your purchase from ClashCases! Please allow 1-2 days for us to hand make your case and we&#39;ll ship them out as soon as they are done being made :)",
+    "digital_sale_message": null,
+    "last_updated_tsz": 1434566573,
+    "listing_active_count": 153,
+    "login_name": "BodyJewelrySource",
+    "accepts_custom_requests": true,
+    "policy_welcome": null,
+    "policy_payment": null,
+    "policy_shipping": null,
+    "policy_refunds": "Please contact us within 14 business days for a full refund. I would love to replace or remake the case if the print doesn&#39;t meet your standards =D.",
+    "policy_additional": null,
+    "policy_seller_info": null,
+    "policy_updated_tsz": 1430260977,
+    "vacation_autoreply": null,
+    "url": "https:\/\/www.etsy.com\/shop\/ClashCases?utm_source=tiycatalog&utm_medium=api&utm_campaign=api",
+    "image_url_760x100": "https:\/\/img1.etsystatic.com\/047\/0\/7509981\/iusb_760x100.15183333_7n0k.jpg",
+    "num_favorers": 1102,
+    "languages": ["en-US"],
+    "upcoming_local_event_id": null
+  }],
+  "params": {
+    "shop_id": "ClashCases"
+  },
+  "type": "Shop",
+  "pagination": {}
+}
