@@ -8,6 +8,7 @@ var browserSync = require('browser-sync').create();
 gulp.task('serve', ['sass'], function() {
  browserSync.init({
      server: "src/",
+     directory: true,
      routes: {
        "/bower_components": "bower_components",
 
