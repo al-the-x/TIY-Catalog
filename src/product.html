@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>{{what that title be?}}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- bower:css -->
@@ -18,11 +18,22 @@
       <header class="header-row grid">
         <div class="shop-icon unit-span-4">
           <div class="img-box">
-            <a href="#"><img src="http://lorempixel.com/75/75/people"></a>
+            <a href="{{what that link be?}}">
+              <img src="http://lorempixel.com/75/75/people"
+                data-src="{{what that image be?}}">
+            </a>
           </div> <!--.img-box-->
           <div class="shop-name-fav">
-            <h4><a href="#">mediumcontrol</a></h4>
-            <button class="favorite-shop"><span>&#10084;</span>Favorite Shop</button>
+            <h4><a href="{{what that link be?}}">
+              {{what that word be?}}
+            </a></h4>
+            <button class="favorite-shop" data-shop="{{what that shop is?}}">
+            <!-- How I know what shop to favorite? -->
+              <!-- FIXME: Use `::before` instead... -->
+              <span>&#10084;</span>
+              <!-- FIXME: Wrap in HTML for hiding at small sizes? -->
+              Favorite Shop
+            </button>
           </div>
         </div> <!--.shop-icon-->
         <div class="image-list unit-span-8">
@@ -36,7 +47,8 @@
       <div class="main-body">
         <section class="grid">
           <div class="unit-span-8">
-            <img src=http://lorempixel.com/550/550>
+            <img src="http://lorempixel.com/550/550"
+              data-src="{{product.main_image_url}}">
           </div>
           <div class="unit-span-4 item-detail">
             <div class="item-title">
