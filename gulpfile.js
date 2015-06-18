@@ -7,15 +7,18 @@ var browserSync = require('browser-sync').create();
 // // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
  browserSync.init({
-     server: "src/",
-     directory: true,
-     routes: {
-       "/bower_components": "bower_components",
+     // Convert `server: "src/"` to...
+     server: {
+       baseDir: "src/",
+       routes: {
+         "/bower_components": "./bower_components",
 
-       // Request: http://localhost:XXXX/api/listing/XXXXXXXXXXX.json
-       // Becomes: ./api/etsy/listing/XXXXXXXXXXX.json
-       "/api": "api/etsy"
-     }
+         // Request: http://localhost:XXXX/api/listing/XXXXXXXXXXX.json
+         // Becomes: ./api/etsy/listing/XXXXXXXXXXX.json
+         "/api": "api/etsy"
+       }
+     },
+     directory: true,
  });
 
  gulp.watch("src/scss/*.scss", ['sass']);
