@@ -40,13 +40,27 @@
         <a href="#">
           <img src="http://lorempixel.com/75/75/cats">
         </a>
-        <a href="#"></a><!-- listings number -->
+        <style>
+            .store-items {
+            display: inline-block;
+            text-align: center;
+            width: 75px; height: 75px;
+            padding:0.5ex 0.5em;
+            box-sizing: border-box;
+            border: 0.5ex solid grey;
+            }
+        </style>
+        <a href="#" class='store-items'> <big>738</big> <br> <small>items</small></a>
       </nav>
     </header><!-- .page-header -->
     <section class='content'>
       <section class='main-image col-sm-7'>
-        <img src="http://lorempixel.com/570/570/cats">
-      </section>
+        <figure class='slideshow'>
+          <a href="#" rel="prev"></a>
+          <a href="#" rel="next"></a>
+          <img src="http://lorempixel.com/570/570/cats">
+        </figure> <!-- .slideshow -->
+      </section> <!-- .main-image -->
       <section class='product-basics col-sm-5'>
         <h3>Product Title</h3>
         <section class='product-price'>
