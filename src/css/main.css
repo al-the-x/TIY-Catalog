@@ -77,6 +77,44 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+li {
+  list-style: none; }
+
+.page-header {
+  display: inline-block; }
+
+.sort-by {
+  display: inline-block;
+  float: right; }
+
+.box-1 {
+  background-color: lightgrey;
+  padding: 1.5em 0 1.5em 1.5em; }
+
+.price input {
+  float: right;
+  width: 4em;
+  display: block; }
+
+.colors li {
+  display: block; }
+
+.box-2 {
+  background-color: lightgrey;
+  padding: 1.5em 0 1.5em 1.5em; }
+
+.items-for-sale h3 {
+  font-size: 1em; }
+
+.items-for-sale p {
+  float: right;
+  display: inline-block; }
+
+.items-for-sale li {
+  border: .3em solid lightgrey;
+  margin-bottom: 1em;
+  padding: 0.5em 0.5em 0.5em 0.2em; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
