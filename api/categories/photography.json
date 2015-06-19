@@ -1,0 +1,22 @@
+{
+  "count": 1,
+  "results": [{
+    "category_id": 69154867,
+    "name": "photography",
+    "meta_title": "Fine Art Photography on Etsy - Abstract, portrait, landscape photography",
+    "meta_keywords": "handmade photography, handcrafted photography, handmade photographic prints, original art photography, handmade Polaroid photography, handmade lomography photography, handmade digital photography, art photography ",
+    "meta_description": "Shop for unique, original fine art photography directly from independent artists on Etsy, a global handmade marketplace. Browse art photography, abstract, portraits, landscapes & more.",
+    "page_description": "Shop for unique, original fine art photography from our artisan community",
+    "page_title": "Fine Art Photography",
+    "category_name": "art\/photography",
+    "short_name": "Photography",
+    "long_name": "Art > Photography",
+    "num_children": 16
+  }],
+  "params": {
+    "tag": "art",
+    "subtag": "photography"
+  },
+  "type": "Category",
+  "pagination": {}
+}

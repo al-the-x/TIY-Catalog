@@ -1,38 +1,124 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- bower:css -->
-        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"></link>
-        <!-- endbower -->
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"></link>
+  <!-- endbower -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <main class='container'>
-          <header class='page-header'>
-            <a href="#" class="col-sm-1"><img src="http://lorempixel.com/75/75/abstract"></a>
-            <h4 class='shop-name col-sm-2'>
-              <a href="#">Lorem Products</a>
-              <button>Favorite</button>
-            </h4> <!-- .shop-name -->
-            <nav class="col-sm-6 col-sm-offset-3">
-             <a href="#"><img src="http://lorempixel.com/75/75/cats"></a>
-             <a href="#"><img src="http://lorempixel.com/75/75/cats"></a>
-             <a href="#"><img src="http://lorempixel.com/75/75/cats"></a>
-             <a href="#"><img src="http://lorempixel.com/75/75/cats"></a>
-           </nav>
-          </header> <!-- .page-header -->
-        </main><!-- .container -->
+  <main class='container'>
+    <header class='page-header'>
+      <a href="#" class="col-sm-1">
+        <img src="http://lorempixel.com/75/75/abstract">
+      </a>
+      <h4 class='shop-name col-sm-2'>
+        <a href="#">Shop Title</a>
+        <button>Favorite</button>
+      </h4><!-- .shop-name -->
+      <nav class="col-sm-6 col-sm-offset-3">
+        <a href="#">
+          <img src="http://lorempixel.com/75/75/cats">
+        </a>
+        <a href="#">
+          <img src="http://lorempixel.com/75/75/cats">
+        </a>
+        <a href="#">
+          <img src="http://lorempixel.com/75/75/cats">
+        </a>
+        <a href="#">
+          <img src="http://lorempixel.com/75/75/cats">
+        </a>
+        <style>
+            .store-items {
+            display: inline-block;
+            text-align: center;
+            width: 75px; height: 75px;
+            padding:0.5ex 0.5em;
+            box-sizing: border-box;
+            border: 0.5ex solid grey;
+            }
+        </style>
+        <a href="#" class='store-items'> <big>738</big> <br> <small>items</small></a>
+      </nav>
+    </header><!-- .page-header -->
+    <section class='content'>
+      <section class='main-image col-sm-7'>
+        <figure class='slideshow'>
+          <a href="#" rel="prev"></a>
+          <a href="#" rel="next"></a>
+          <img src="http://lorempixel.com/570/570/cats">
+        </figure> <!-- .slideshow -->
+      </section> <!-- .main-image -->
+      <section class='product-basics col-sm-5'>
+        <h3>Product Title</h3>
+        <section class='product-price'>
+          <h3>$0.00</h3><a href="#">USD</a>
+          <button>Ask a Question</button>
+        </section><!--.product-price -->
+        <section class='product-options'>
+          <label class='product-quantity'>
+            <span>Quantity</span>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+          </label><!-- .product-quantity -->
+          <label class='product-device'>
+            <span>Device</span>
+            <select>
+              <option>Select an option</option>
+              <option>iPhone 5</option>
+              <option>iPhone 5C</option>
+              <option>iPhone 5s</option>
+              <option>iPhone 6</option>
+              <option>iPhone 6 Plus</option>
+              <option>Samsung Galaxy S3</option>
+              <option>Samsung Galaxy S4</option>
+              <option>Samsung Galaxy S5</option>
+              <option>Samsung Galaxy S6</option>
+              <option>Galaxy Note 4</option>
+              <option>Samsung Note Edge</option>
+            </select>
+          </label><!-- .product-device -->
+        </section><!-- .product-options -->
+        <section class='product-overview'>
+          <h4>Overview</h4>
+          <ul>
+            <li>Handmade item</li>
+            <li>Made to order</li>
+            <li>Ships worldwide from Corona, California</li>
+            <li>Feedback: <a href="#">160 reviews</a></li>
+            <li>Favorited by: <a href="#">747 people</a></li>
+          </ul>
+          <div>This shop accepts Etsy Gift Cards</div>
+        </section><!-- .product-overview -->
+        <button>Add to Cart</button>
+      </section><!-- .product-basics -->
+    </section><!-- .content -->
+  </main><!-- .container -->
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
