@@ -11,16 +11,25 @@
        * @param {Object} data from JSON
        * @return {Object} extracted from `data`
        */
-      function productFactory (data){
-        return {
-          title: data.title,
-          description: data.description,
-          quantity: data.quantity,
-          // main_image_url: // ???
+      function productFactory(result){
+        return { // FIXME: use `lodash.pluck` instead?
+          title: result.title,
+          description: result.description,
+          quantity: result.quantity,
+          main_image_url: result.MainImage.url_570xN,
+          price: result.price
         };
       }
 
-      var product = productFactory(response.results[0]);
+      debugger;
+
+      // $('.item-title').text(product.title); // via jQuery
+      new Vue({
+        "el": '.item-detail',
+        "data": {
+          "product": productFactory(response.results[0])
+        }
+      })
     })
 })(window);
 // Goodby from main.js!

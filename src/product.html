@@ -51,11 +51,12 @@
               data-src="{{product.main_image_url}}">
           </div>
           <div class="unit-span-4 item-detail">
-            <div class="item-title">
-              <p>Backpack: shit, hipster, awesome, OMG, wow, I like craft beer, hipster bags, coffee, music snobs and skinny jeans.Where's the kale?</p>
-            </div> <!--.item-title-->
+            <h3 class="item-title">{{product.title}}</h3>
             <div class="price-questions">
-              <div class="price-listing"><span>$</span>46.00<span class="currency"><a href="#">USD</a></span></div>
+              <div class="price-listing">
+                ${{product.price}}
+                <span class="currency"><a href="#">USD</a></span>
+              </div>
               <button class="seller-questions">Ask a Question</button>
             </div> <!--.price-questions-->
             <h5>Quantity</h5>
