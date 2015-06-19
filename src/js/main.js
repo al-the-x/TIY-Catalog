@@ -12,7 +12,7 @@
        * @return {Object} extracted from `data`
        */
       function productFactory(result){
-        return { // FIXME: use `lodash.pluck` instead?
+        return { // FIXME: use `lodash.pick` instead?
           title: result.title,
           description: result.description,
           quantity: result.quantity,
