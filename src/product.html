@@ -61,203 +61,229 @@
       </nav>
     </header>
     <!-- .page-header -->
-    <section class="product">
-      <section class='content'>
-        <section class='main-image col-sm-7'>
-          <figure class='slideshow'>
-            <a href="#" rel="prev">
-              <span>
-                <</span</a>
-                  <a href="#" rel="next">
-                    <span>></span>
-                  </a>
-                  <img src="http://lorempixel.com/570/570/cats">
-          </figure><!-- .slideshow -->
-          <div class="image-footer">
-            <ul>
-              <!-- will vary based on how many pics there are for the product -->
-              <li class="thumbnail col-sm-1" data-index="0">
-                <img src="http://lorempixel.com/30/30/city" data-src={{product.url}}>
-              </li>
-              <li class="thumbnail col-sm-1" data-index="1">
-                <img src="http://lorempixel.com/30/30/city" data-src={{product.url}}>
-              </li>
-              <li class="thumbnail col-sm-1" data-index="2">
-                <img src="http://lorempixel.com/30/30/city" data-src={{product.url}}>
-              </li>
-            </ul>
-            <a id="zoom" href="#">
-              <span>🔎</span>zoom</a>
-          </div>
-          <!-- .image-footer -->
-        </section>
-        <!-- .main-image -->
-        <section class='product-basics col-sm-5'>
-          <h3>Product Title</h3>
-          <section class='product-price'>
-            <h3>$0.00</h3><a href="#">USD</a>
-            <button>Ask a Question</button>
-          </section>
-          <!--.product-price -->
-          <section class='product-options'>
-            <label class='product-quantity'>
-              <span>Quantity</span>
-              <select>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option>10</option>
-              </select>
-            </label>
-            <!-- .product-quantity -->
-            <label class='product-device'>
-              <span>Device</span>
-              <select>
-                <option>Select an option</option>
-                <option>iPhone 5</option>
-                <option>iPhone 5C</option>
-                <option>iPhone 5s</option>
-                <option>iPhone 6</option>
-                <option>iPhone 6 Plus</option>
-                <option>Samsung Galaxy S3</option>
-                <option>Samsung Galaxy S4</option>
-                <option>Samsung Galaxy S5</option>
-                <option>Samsung Galaxy S6</option>
-                <option>Galaxy Note 4</option>
-                <option>Samsung Note Edge</option>
-              </select>
-            </label>
-            <!-- .product-device -->
-          </section>
-          <!-- .product-options -->
-          <section class='product-overview'>
-            <h4>Overview</h4>
-            <ul>
-              <li>Handmade item</li>
-              <li>Made to order</li>
-              <li>Ships worldwide from Corona, California</li>
-              <li>Feedback: <a href="#">160 reviews</a></li>
-              <li>Favorited by: <a href="#">747 people</a></li>
-            </ul>
-            <div>This shop accepts Etsy Gift Cards</div>
-          </section>
-          <!-- .product-overview -->
-          <button>Add to Cart</button>
-        </section>
-        <!-- .product-basics -->
-        <div class="fav-list">
-          <button class="favorite">Favorite</button>
-          <button class="fav-list">Add to</button>
+    <section class='content'>
+      <section class='main-image col-sm-7'>
+        <figure class='slideshow'>
+          <a href="#" rel="prev">
+            <span>
+              <</span</a>
+                <a href="#" rel="next">
+                  <span>></span>
+                </a>
+                <img src="http://lorempixel.com/570/570/cats">
+        </figure>
+        <!-- .slideshow -->
+        <div class="image-footer col-sm-12">
+          <ul>
+            <!-- will vary based on how many pics there are for the product -->
+            <li class="thumbnail col-sm-1" data-index="0">
+              <img src="http://lorempixel.com/30/30/city" data-src={{product.url}}>
+            </li>
+            <li class="thumbnail col-sm-1" data-index="1">
+              <img src="http://lorempixel.com/30/30/city" data-src={{product.url}}>
+            </li>
+            <li class="thumbnail col-sm-1" data-index="2">
+              <img src="http://lorempixel.com/30/30/city" data-src={{product.url}}>
+            </li>
+          </ul>
+          <a id="zoom" href="#">
+            <span>🔎</span>zoom</a>
         </div>
-        <div class="store-related col-sm-5">
-          <div class="store col-sm-12">
-            <a href="#" class="store-pic col-sm-12">
-              <img src="http://lorempixel.com/75/75/abstract">
+        <!-- .image-footer -->
+        <ul id="item-tabs" class="col-sm-12" data-target-id="tab-contents">
+          <!-- links could have to change -->
+          <li class="tab-details">
+            <a href="#" data-target-id="description">
+              <span>Item Details</span>
             </a>
-            <h4 class='shop-name col-sm-12'>
-              <a href="#">Shop Title</a>
-            </h4>
-            <p class="col-sm-12">in {{shop.location}}</p>
+          </li>
+          <li class="tab-review">
+            <a href="/shop/ClashCases/reviews" data-target-id="reviews">
+              <span>Reviews</span>
+            </a>
+          </li>
+          <li class="tab-shipping">
+            <a <href="#" data-target-id="shipping-tab">
+              <span>Shipping & Policies</span>
+            </a>
+          </li>
+        </ul>
+        <!-- #item-tabs -->
+        <div id="tab-contents">
+          <div id="discription">
+            <div id="discription-text">
+              h;las;hG;iashdgo;asdlas;ghsad;oj;ag sdlgasdlgh;oasdg lkahsglhads;ogiasd ;oihg;dlshg;lasdh g;oasdhg;lasdhg;oiash;oi ihdg;adsh;gs lfdh;gahsd;ogh ;lhas;dlhg;asld ; hsd;g asd'oi hg;adslhg;asd lshg;djshg ;oa ahg;ksdh;kgasdh
+            </div>
+            <!-- #discription-text -->
           </div>
-          <!-- .store -->
-          <nav class="shop-items col-sm-6">
-            <div class="item">
-              <a href="#">
-                <img src="http://lorempixel.com/175/150/cats">
-              </a>
-              <a href='#'>
-                <p>{{description}}</p>
-              </a>
-              <p>{{listings.price}}</p>
-            </div>
-            <!-- .item -->
-
-            <div class="item">
-              <a href="#">
-                <img src="http://lorempixel.com/175/150/cats">
-              </a>
-              <a href='#'>
-                <p>{{description}}</p>
-              </a>
-              <p>{{listings.price}}</p>
-            </div>
-            <!-- .item -->
-            <div class="item">
-              <a href="#">
-                <img src="http://lorempixel.com/175/150/cats">
-              </a>
-              <a href='#'>
-                <p>{{description}}</p>
-              </a>
-              <p>{{listings.price}}</p>
-            </div>
-            <!-- .item -->
-            <div class="item">
-              <a href="#">
-                <img src="http://lorempixel.com/175/150/cats">
-              </a>
-              <a href='#'>
-                <p>{{description}}</p>
-              </a>
-              <p>{{listings.price}}</p>
-            </div>
-            <!-- .item -->
-          </nav>
-          <!-- shop-items -->
-          <nav class="shop-items col-sm-2">
-            <div class="item">
-              <a href="#">
-                <img src="http://lorempixel.com/175/150/cats">
-              </a>
-              <a href='#'>
-                <p>{{description}}</p>
-              </a>
-              <p>{{listings.price}}</p>
-            </div>
-            <!-- .item -->
-            <div class="item">
-              <a href="#">
-                <img src="http://lorempixel.com/175/150/cats">
-              </a>
-              <a href='#'>
-                <p>{{description}}</p>
-              </a>
-              <p>{{listings.price}}</p>
-            </div>
-            <!-- .item -->
-            <div class="item">
-              <a href="#">
-                <img src="http://lorempixel.com/175/150/cats">
-              </a>
-              <a href='#'>
-                <p>{{description}}</p>
-              </a>
-              <p>{{listings.price}}</p>
-            </div>
-            <!-- .item -->
-            <div class="item">
-              <a href="#">
-                <img src="http://lorempixel.com/175/150/cats">
-              </a>
-              <a href='#'>
-                <p>{{description}}</p>
-              </a>
-              <p>{{listings.price}}</p>
-            </div>
-            <!-- .item -->
-          </nav>
-          <!--.shop-items -->
+          <!-- #discritption -->
         </div>
+        <!-- #tab-contents -->
       </section>
-      <!-- .content -->
+      <!-- .main-image -->
+      <section class='product-basics col-sm-5'>
+        <h3>Product Title</h3>
+        <section class='product-price'>
+          <h3>$0.00</h3><a href="#">USD</a>
+          <button>Ask a Question</button>
+        </section>
+        <!--.product-price -->
+        <section class='product-options'>
+          <label class='product-quantity'>
+            <span>Quantity</span>
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+          </label>
+          <!-- .product-quantity -->
+          <label class='product-device'>
+            <span>Device</span>
+            <select>
+              <option>Select an option</option>
+              <option>iPhone 5</option>
+              <option>iPhone 5C</option>
+              <option>iPhone 5s</option>
+              <option>iPhone 6</option>
+              <option>iPhone 6 Plus</option>
+              <option>Samsung Galaxy S3</option>
+              <option>Samsung Galaxy S4</option>
+              <option>Samsung Galaxy S5</option>
+              <option>Samsung Galaxy S6</option>
+              <option>Galaxy Note 4</option>
+              <option>Samsung Note Edge</option>
+            </select>
+          </label>
+          <!-- .product-device -->
+        </section>
+        <!-- .product-options -->
+        <section class='product-overview'>
+          <h4>Overview</h4>
+          <ul>
+            <li>Handmade item</li>
+            <li>Made to order</li>
+            <li>Ships worldwide from Corona, California</li>
+            <li>Feedback: <a href="#">160 reviews</a></li>
+            <li>Favorited by: <a href="#">747 people</a></li>
+          </ul>
+          <div>This shop accepts Etsy Gift Cards</div>
+        </section>
+        <!-- .product-overview -->
+        <button>Add to Cart</button>
+      </section>
+      <!-- .product-basics -->
+      <div class="fav-list">
+        <button class="favorite">Favorite</button>
+        <button class="fav-list">Add to</button>
+      </div>
+      <div class="store-related col-sm-5">
+        <div class="store col-sm-12">
+          <a href="#" class="store-pic col-sm-12">
+            <img src="http://lorempixel.com/75/75/abstract">
+          </a>
+          <h4 class='shop-name col-sm-12'>
+            <a href="#">Shop Title</a>
+          </h4>
+          <p class="col-sm-12">in {{shop.location}}</p>
+        </div>
+        <!-- .store -->
+        <nav class="shop-items col-sm-6">
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'>
+              <p>{{description}}</p>
+            </a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'>
+              <p>{{description}}</p>
+            </a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'>
+              <p>{{description}}</p>
+            </a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'>
+              <p>{{description}}</p>
+            </a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+        </nav>
+        <!-- shop-items -->
+        <nav class="shop-items col-sm-2">
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'>
+              <p>{{description}}</p>
+            </a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'>
+              <p>{{description}}</p>
+            </a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'>
+              <p>{{description}}</p>
+            </a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'>
+              <p>{{description}}</p>
+            </a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+        </nav>
+        <!--.shop-items -->
+      </div>
     </section>
-    <!-- .product -->
+    <!-- .content -->
   </main>
   <!-- .container -->
   <!-- bower:js -->
