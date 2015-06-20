@@ -6,9 +6,9 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- bower:css -->
+  <!-- bower:css -->
   <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
-  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"></link>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
   <!-- endbower -->
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -18,13 +18,14 @@
 
   <main class='container'>
     <header class='page-header'>
-      <a href="#" class="col-sm-1">
+      <a href="#" class="store-pic col-sm-1">
         <img src="http://lorempixel.com/75/75/abstract">
       </a>
       <h4 class='shop-name col-sm-2'>
         <a href="#">Shop Title</a>
         <button>Favorite</button>
-      </h4><!-- .shop-name -->
+      </h4>
+      <!-- .shop-name -->
       <nav class="col-sm-6 col-sm-offset-3">
         <a href="#">
           <img src="http://lorempixel.com/75/75/cats">
@@ -39,32 +40,41 @@
           <img src="http://lorempixel.com/75/75/cats">
         </a>
         <style>
-            .store-items {
+          .store-items {
             display: inline-block;
             text-align: center;
-            width: 75px; height: 75px;
-            padding:0.5ex 0.5em;
+            width: 75px;
+            height: 75px;
+            padding: 0.5ex 0.5em;
             box-sizing: border-box;
             border: 0.5ex solid grey;
-            }
+          }
         </style>
-        <a href="#" class='store-items'> <big>738</big> <br> <small>items</small></a>
+        <a href="#" class='store-items'>
+          <big>738</big>
+          <br>
+          <small>items</small>
+        </a>
       </nav>
-    </header><!-- .page-header -->
+    </header>
+    <!-- .page-header -->
     <section class='content'>
       <section class='main-image col-sm-7'>
         <figure class='slideshow'>
-          <a href="#" rel="prev"></a>
-          <a href="#" rel="next"></a>
+          <a href="#" rel="prev"><span><</span</a>
+          <a href="#" rel="next"><span>></span></a>
           <img src="http://lorempixel.com/570/570/cats">
-        </figure> <!-- .slideshow -->
-      </section> <!-- .main-image -->
+        </figure>
+        <!-- .slideshow -->
+      </section>
+      <!-- .main-image -->
       <section class='product-basics col-sm-5'>
         <h3>Product Title</h3>
         <section class='product-price'>
           <h3>$0.00</h3><a href="#">USD</a>
           <button>Ask a Question</button>
-        </section><!--.product-price -->
+        </section>
+        <!--.product-price -->
         <section class='product-options'>
           <label class='product-quantity'>
             <span>Quantity</span>
@@ -80,7 +90,8 @@
               <option>9</option>
               <option>10</option>
             </select>
-          </label><!-- .product-quantity -->
+          </label>
+          <!-- .product-quantity -->
           <label class='product-device'>
             <span>Device</span>
             <select>
@@ -97,8 +108,10 @@
               <option>Galaxy Note 4</option>
               <option>Samsung Note Edge</option>
             </select>
-          </label><!-- .product-device -->
-        </section><!-- .product-options -->
+          </label>
+          <!-- .product-device -->
+        </section>
+        <!-- .product-options -->
         <section class='product-overview'>
           <h4>Overview</h4>
           <ul>
@@ -109,23 +122,108 @@
             <li>Favorited by: <a href="#">747 people</a></li>
           </ul>
           <div>This shop accepts Etsy Gift Cards</div>
-        </section><!-- .product-overview -->
+        </section>
+        <!-- .product-overview -->
         <button>Add to Cart</button>
-      </section><!-- .product-basics -->
-    </section><!-- .content -->
-  </main><!-- .container -->
+      </section>
+      <!-- .product-basics -->
+      <div class="fav-list">
+        <button class="favorite">Favorite</button>
+        <button class="fav-list">Add to</button>
+      </div>
+      <div class="store-related col-sm-5">
+        <div class="store col-sm-12">
+        <a href="#" class="store-pic col-sm-12">
+          <img src="http://lorempixel.com/75/75/abstract">
+        </a>
+        <h4 class='shop-name col-sm-12'>
+          <a href="#">Shop Title</a>
+        </h4>
+        <p class="col-sm-12">in {{shop.location}}</p>
+      </div> <!-- .store -->
+        <nav class="shop-items col-sm-6">
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'><p>{{description}}</p></a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
 
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'><p>{{description}}</p></a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'><p>{{description}}</p></a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'><p>{{description}}</p></a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+        </nav> <!-- shop-items -->
+        <nav class="shop-items col-sm-2">
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'><p>{{description}}</p></a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'><p>{{description}}</p></a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'><p>{{description}}</p></a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+          <div class="item">
+            <a href="#">
+              <img src="http://lorempixel.com/175/150/cats">
+            </a>
+            <a href='#'><p>{{description}}</p></a>
+            <p>{{listings.price}}</p>
+          </div>
+          <!-- .item -->
+        </nav> <!--.shop-items -->
+      </div>
+    </section>
+    <!-- .content -->
+  </main>
+  <!-- .container -->
+  <!-- bower:js -->
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <script src="../bower_components/vue/dist/vue.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- endbower -->
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
 
-
-
-        <!-- bower:js -->
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <script src="../bower_components/modernizr/modernizr.js"></script>
-        <script src="../bower_components/vue/dist/vue.js"></script>
-        <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <!-- endbower -->
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
 
 </html>
