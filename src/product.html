@@ -111,7 +111,7 @@
         <div id="tab-contents">
           <div id="discription">
             <div id="discription-text">
-              h;las;hG;iashdgo;asdlas;ghsad;oj;ag sdlgasdlgh;oasdg lkahsglhads;ogiasd ;oihg;dlshg;lasdh g;oasdhg;lasdhg;oiash;oi ihdg;adsh;gs lfdh;gahsd;ogh ;lhas;dlhg;asld ; hsd;g asd'oi hg;adslhg;asd lshg;djshg ;oa ahg;ksdh;kgasdh
+            {{product.description}}
             </div>
             <!-- #discription-text -->
           </div>
@@ -121,9 +121,9 @@
       </section>
       <!-- .main-image -->
       <section class='product-basics col-sm-5'>
-        <h3>Product Title</h3>
+        <h3>{{product.title}}</h3>
         <section class='product-price'>
-          <h3>$0.00</h3><a href="#">USD</a>
+          <h3>${{product.price}}</h3><a href="#">{{product.currency}}</a>
           <button>Ask a Question</button>
         </section>
         <!--.product-price -->
@@ -205,7 +205,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{listings.price}}</p>
+            <p>{{product.price}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -215,7 +215,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{listings.price}}</p>
+            <p>{{product.price}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -225,7 +225,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{listings.price}}</p>
+            <p>{{product.price}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -235,7 +235,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{listings.price}}</p>
+            <p>{{product.price}}</p>
           </div>
           <!-- .item -->
         </nav>
@@ -248,7 +248,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{listings.price}}</p>
+            <p>{{product.price}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -258,7 +258,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{listings.price}}</p>
+            <p>{{product.price}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -268,7 +268,7 @@
             <a href='#'>
               <p>{{description}}</p>
             </a>
-            <p>{{listings.price}}</p>
+            <p>{{product.price}}</p>
           </div>
           <!-- .item -->
           <div class="item">
@@ -276,9 +276,9 @@
               <img src="http://lorempixel.com/175/150/cats">
             </a>
             <a href='#'>
-              <p>{{description}}</p>
+              <p>{{product.title}}</p>
             </a>
-            <p>{{listings.price}}</p>
+            <p>{{product.price}}</p>
           </div>
           <!-- .item -->
         </nav>
