@@ -14,7 +14,7 @@
     }
 
     new Vue({
-      el: '.item-title',
+      el: '.product-basics',
       "data": {
         product: productFactory(response.results[0]),
       }
