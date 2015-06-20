@@ -1,0 +1,29 @@
+{
+  "count": 2,
+  "results": [{
+    "shipping_info_id": 11756700513,
+    "origin_country_id": 209,
+    "destination_country_id": null,
+    "currency_code": "USD",
+    "primary_cost": "5.00",
+    "secondary_cost": "0.00",
+    "listing_id": 224082884,
+    "region_id": null,
+    "origin_country_name": "United States",
+    "destination_country_name": "Everywhere Else"
+  }, {
+    "shipping_info_id": 11756143788,
+    "origin_country_id": 209,
+    "destination_country_id": 209,
+    "currency_code": "USD",
+    "primary_cost": "2.00",
+    "secondary_cost": "0.00",
+    "listing_id": 224082884,
+    "region_id": null,
+    "origin_country_name": "United States",
+    "destination_country_name": "United States"
+  }],
+  "params": null,
+  "type": "ShippingInfo",
+  "pagination": {}
+}
