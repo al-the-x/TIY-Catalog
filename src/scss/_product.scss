@@ -14,6 +14,7 @@
   margin-left: 10%;
   margin-right: 10%;
   background-color: white;
+  height: 110em;
 }
 
 .main-image {
@@ -23,9 +24,11 @@
 .slideshow {
 position: relative;
 }
+
 .slideshow > img {
 width: 100%
 }
+
 .slideshow > a {
 position: absolute;
 font-size: 400%;
@@ -51,4 +54,75 @@ float: right;
 
 .slideshow > a span {
 display: none;
+}
+
+.product-title {
+  width: 20%;
+}
+
+.product-basics {
+margin-top: 2.4em;
+margin-left: -10px;
+border: .5em solid #D3FDCE;
+}
+
+.product-basics h3 {
+  font-family: serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.product-price {
+  display: inline-block;
+}
+
+.product-price h3 {
+  display: inline-block;
+  padding-right: 1em;
+  width: 25%;
+}
+
+.product-price button {
+  margin-left: 4em;
+  font-size: .9em;
+}
+
+.product-quantity {
+  display: block;
+  margin-top: 1em;
+}
+
+.product-device {
+  margin-top: 1em;
+}
+
+.product-overview h4 {
+  font-size: 1em;
+}
+
+.product-overview li {
+  list-style: inherit;
+}
+
+.gift-card {
+  margin-bottom: 2em;
+}
+
+#add-to-cart {
+  display: block;
+  width: 40%;
+  padding-top: .7em;
+  padding-bottom: .7em;
+  background-color: #8AE65C;
+  color: white;
+  border: .5em solid #D3FDCE;
+}
+
+.fav-list {
+  width: 25%;
+  float: right;
+  @extend clearfix;
+  background-color: white;
+  border: .5em solid #E6E6E6;
+  margin-right: 10%;
 }
