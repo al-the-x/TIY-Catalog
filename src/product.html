@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
+
+<head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title></title>
@@ -14,7 +15,6 @@
 </head>
 
 <body>
-
 
   <main class='container'>
     <header class='page-header'>
@@ -46,6 +46,7 @@
             vertical-align: bottom;
             width: 75px;
             height: 75px;
+            background-color: white;
             padding: 0.5ex 0.5em;
             box-sizing: border-box;
             border: 0.5ex solid grey;
@@ -172,15 +173,21 @@
             <li>Feedback: <a href="#">160 reviews</a></li>
             <li>Favorited by: <a href="#">747 people</a></li>
           </ul>
-          <div>This shop accepts Etsy Gift Cards</div>
+          <div class="gift-card">
+            <h5>This shop accepts Etsy Gift Cards</h5>
+          </div>
         </section>
         <!-- .product-overview -->
-        <button>Add to Cart</button>
+        <button id="add-to-cart">Add to Cart</button>
+
       </section>
       <!-- .product-basics -->
+
+
+
       <div class="fav-list">
         <button class="favorite">Favorite</button>
-        <button class="fav-list">Add to</button>
+        <button class="add-to">Add to</button>
       </div>
       <div class="store-related col-sm-5">
         <div class="store col-sm-12">
@@ -279,9 +286,10 @@
           <!-- .item -->
         </nav>
         <!--.shop-items -->
-      </div>
+      </div> <!-- .store-related -->
     </section>
     <!-- .content -->
+
   </main>
   <!-- .container -->
   <!-- bower:js -->
