@@ -9,7 +9,8 @@
         title: result.title,
         description: result.description,
         quantity: result.quantity,
-        price: result.price
+        price: result.price,
+        currency:result.currency_code
       };
     }
 
