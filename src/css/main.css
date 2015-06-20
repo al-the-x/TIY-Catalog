@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! HTML5 Boilerplate v5.1.0 | MIT License | https://html5boilerplate.com/ */
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -114,6 +115,53 @@ li {
   border: .3em solid lightgrey;
   margin-bottom: 1em;
   padding: 0.5em 0.5em 0.5em 0.2em; }
+
+.container {
+  background-color: #E6E5DD;
+  width: 100%; }
+
+.page-header {
+  margin-left: 10%;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 5%; }
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white; }
+
+.main-image {
+  margin-top: 3%; }
+
+.slideshow {
+  position: relative; }
+
+.slideshow > img {
+  width: 100%; }
+
+.slideshow > a {
+  position: absolute;
+  font-size: 400%;
+  text-decoration: none;
+  top: 0;
+  bottom: 0; }
+
+.slideshow > a::before {
+  content: “ .slideshow > a::before;
+  position: absolute; }
+
+.slideshow > a[rel=“prev”] {
+  left: 0;
+  right: 50%; }
+
+.slideshow > a[rel=“next”] {
+  right: 0;
+  right: 50%;
+  float: right; }
+
+.slideshow > a span {
+  display: none; }
 
 /* ==========================================================================
    Helper classes

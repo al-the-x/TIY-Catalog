@@ -1,0 +1,54 @@
+.container {
+  background-color: #E6E5DD;
+  width: 100%;
+}
+
+.page-header {
+  margin-left: 10%;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+
+.main-image {
+  margin-top: 3%;
+}
+
+.slideshow {
+position: relative;
+}
+.slideshow > img {
+width: 100%
+}
+.slideshow > a {
+position: absolute;
+font-size: 400%;
+text-decoration: none;
+top: 0; bottom: 0;  //this makes it small to parent element//
+}
+
+.slideshow > a::before {
+content: “&”;
+position: absolute;
+}
+
+.slideshow > a[rel=“prev”] {
+left: 0;
+right: 50%;
+}
+
+.slideshow > a[rel=“next”] {
+right: 0;
+right: 50%;
+float: right;
+}
+
+.slideshow > a span {
+display: none;
+}
