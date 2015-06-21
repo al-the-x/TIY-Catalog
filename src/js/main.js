@@ -1,5 +1,20 @@
 (function(window){
-
+  // $.getJSON('../../api/shops/ClashCases.json')
+  //   .then(function(shop){
+  //     function shopFactory(result){
+  //       return {
+  //         name: result.shop_name,
+  //         total_listings: shop.listing_item_count
+  //
+  //       };
+  //     }
+  //     var details = new Vue({
+  //       "el": '.p',
+  //       "data": {
+  //         "shop": shopFactory(shop.results[0]),
+  //       }
+  //     })
+  //   });
 
   $.getJSON('../../api/listings/224082884.json')
     .then(function(response){
